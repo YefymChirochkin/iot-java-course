@@ -29,7 +29,7 @@ public class WaterPumpOrganizer {
 		}
 
 		for (WaterPump currentCount : arrayOfDetails) {
-			System.out.println(currentCountOfDetails);
+			System.out.println(currentCount);
 		}
 
 	}
