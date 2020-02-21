@@ -1,7 +1,7 @@
 package ua.lviv.iot.firstLab;
 
 public class WaterPumpOrganizer {
-	private final static int countOfDetails = 4;
+	private final static int COUNT_OF_DETAILS = 4;
 
 	public static void main(String[] args) {
 
@@ -21,9 +21,9 @@ public class WaterPumpOrganizer {
 		System.out.println("\n");
 
 		// task 14 with array
-		WaterPump[] arrayOfDetails = new WaterPump[countOfDetails];
+		WaterPump[] arrayOfDetails = new WaterPump[COUNT_OF_DETAILS];
 		int currentCountOfDetails = 0;
-		while (currentCountOfDetails < countOfDetails) {
+		while (currentCountOfDetails < COUNT_OF_DETAILS) {
 			arrayOfDetails[currentCountOfDetails] = new WaterPump();
 			currentCountOfDetails++;
 		}
